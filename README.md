@@ -18,7 +18,8 @@ Generates **6-digit numeric OTPs** securely in the browser and allows instant ve
 ## Demo
 <img width="534" height="591" alt="otp" src="https://github.com/user-attachments/assets/79741bad-7594-43f8-8b7d-01d6a75093f4" />
 
-
+#Link:
+https://random-otp-generat.netlify.app/
 ---
 
 ## Installation / Usage

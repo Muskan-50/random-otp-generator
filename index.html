@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Secure OTP Generator</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Secure OTP Generator</h1>
+
+    <div class="otp-card">
+      <p>Your OTP:</p>
+      <h2 id="otp">------</h2>
+      <button id="generateBtn">Generate OTP</button>
+    </div>
+
+    <div class="otp-verify">
+      <input type="text" id="otpInput" placeholder="Enter OTP" 
+      maxlength="6">
+      <button id="verifyBtn">
+        Verify OTP
+      </button>
+      <p id="status"></p>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
